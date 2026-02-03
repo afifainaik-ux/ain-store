@@ -10,6 +10,13 @@ header {
   padding: 25px 15px;
   border-radius: 0 0 20px 20px;
 }
+.logo {
+  font-family: 'Times New Roman', serif;
+  font-size: 40px;
+  letter-spacing: 8px;
+  color: #b76e79; /* rose gold vibe */
+  margin: 0;
+}
 
 header h1 {
   margin: 0;
@@ -50,6 +57,7 @@ header p {
   width: 100%;
   border-radius: 15px;
   transition: transform 0.4s ease;
+  margin-bottom: 15px;
 }
 
 /* ✨ IMAGE ZOOM ON HOVER */
@@ -59,18 +67,18 @@ header p {
 
 .card h2 {
   font-size: 18px;
-  margin: 12px 0 5px;
+  margin: 10px 0 5px;
 }
 
 .card p {
   font-weight: bold;
-  margin: 0 0 10px;
+  margin: 5px 0 15px;
 }
 
 /* BUY BUTTON */
 .buy-btn {
   display: inline-block;
-  margin-top: 8px;
+  margin-top: auto;
   padding: 10px 15px;
   background: linear-gradient(45deg, #ff8fb7, #ff5e9c);
   color: white;
